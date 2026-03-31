@@ -8,4 +8,5 @@ public interface UserRepository {
 
     void delete(Long id);
     User update(User user);
+    User findById(Long id);
 }
